@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+p {
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  margin: auto;
+  width:fit-content ;
+}
+
+p #text {
+  font: 1000 22vw "Six Caps", sans-serif;
+  letter-spacing: 0;
+  text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+  /* Clip Background Image */
+  background: url(https://i.ibb.co/ByZjLx9/IMG-4695-1-1.png) repeat-x;
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* Animate Background Image */
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: aitf 30s linear infinite;
+  /* Activate hardware acceleration for smoother animations */
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+}
+
+/* Animate Background Image */
+@-webkit-keyframes aitf {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
