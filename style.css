@@ -12,6 +12,7 @@
 *{
   margin: 0;
   padding: 0;
+  outline: 1px solid red;
   /* cursor: none; */
 }
 
@@ -47,14 +48,15 @@ body{
 }
 
 .vid-div {
-  width: 100%;
+  width: fit-content;
   height: 100%;
+  margin: auto;
 
 }
 
 .vid-div video {
 
-  
+
   height: 100vh;
   max-width: 90vw; /* Ensure the video scales appropriately */
 
@@ -64,7 +66,7 @@ body{
   /* position: fixed; */
   top: 0;
   left: 0;
-  width:90vw;
+  width:fit-content;
   margin-left: 5vw;
   margin-right: 5vw;
   z-index: -2;
