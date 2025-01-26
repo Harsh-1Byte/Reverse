@@ -19,7 +19,7 @@ body{
     background: rgb(0, 0, 0);
     line-height: 1.2;
     /* cursor: none; */
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .torn-paper{
