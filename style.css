@@ -12,6 +12,7 @@
 *{
   margin: 0;
   padding: 0;
+  overflow: hidden;
   /* cursor: none; */
 }
 
@@ -19,7 +20,7 @@ body{
     background: rgb(0, 0, 0);
     line-height: 1.5;
     /* cursor: none; */
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .torn-paper{
