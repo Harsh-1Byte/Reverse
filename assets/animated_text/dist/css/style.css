@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 *{
   margin: 0px;
   padding: 0px;
+}
+
+.anton-regular {
+  font-family: "Anton", serif;
+  font-weight: 700;
+  font-style: normal;
 }
 p {
   text-transform: uppercase;
@@ -12,7 +19,8 @@ p {
 }
 
 p #text {
-  font: 1000 22vw "Six Caps", sans-serif;
+  font-size: 15vw;
+  font-family: "Anton", serif;
   letter-spacing: 0;
   text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
   /* Clip Background Image */
