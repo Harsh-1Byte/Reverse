@@ -7,7 +7,8 @@
   
   .image-track {
     display: flex;
-    animation: scroll 15s linear infinite; /* Adjust duration for speed */
+    /* Adjust duration for speed */
+    animation: scroll 15s linear infinite;
   }
   
   .image-track img {
@@ -18,7 +19,7 @@
   
   @keyframes scroll {
     from {
-      transform: translateX(0%);
+      transform: translateX(0);
     }
     to {
       transform: translateX(-100%);
