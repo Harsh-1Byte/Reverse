@@ -1,7 +1,7 @@
 
    gsap.registerPlugin(ScrollTrigger);
 
-    new FlipDown(1742515485).start();
+    new FlipDown(1743791400).start();
 
 
     var init = function() {
