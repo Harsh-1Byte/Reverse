@@ -27,15 +27,15 @@ p #text {
   background: url(https://i.ibb.co/ByZjLx9/IMG-4695-1-1.png) repeat-x;
   -webkit-background-clip: text;
   background-clip: text;
-  /* Animate Background Image */
+  /* Animated Background Image */
   -webkit-text-fill-color: transparent;
   -webkit-animation: aitf 30s linear infinite;
-  /* Activate hardware acceleration for smoother animations */
+  /* Activated hardware acceleration for smoother animations */
   -webkit-transform: translate3d(0, 0, 0);
   -webkit-backface-visibility: hidden;
 }
 
-/* Animate Background Image */
+/* Animated Background Image */
 @-webkit-keyframes aitf {
   0% {
     background-position: 0% 50%;
